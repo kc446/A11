@@ -57,7 +57,7 @@ main h1 { /*somehow i had the h1 and h2 mixed up this whole time and no one said
 	padding-bottom: .3em;
 }
 
-#speakers { /*almost missed this in the rubric. thank god i went back and checked before submitting!*/
+.speakers { /*almost missed this in the rubric. thank god i went back and checked before submitting!*/
 	border: 4px double #931420;
 	border-radius: 15px;
 	padding: .5em 1em .5em 1.5em;
