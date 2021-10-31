@@ -1,0 +1,111 @@
+/* styles for pretty much the whole thing*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: white;
+}
+
+body {
+	width: 600px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	background-color: #fffded;
+	margin: 0 auto 0 auto;
+	border: 3px solid #931420;
+}
+/* styles for the header */
+
+header {
+	border-bottom: 3px solid #931420;
+	padding: 1.5em 0 2em 0;
+	background-image: linear-gradient(30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+}
+
+header img {
+	float: left;
+	padding: 0 30px 0 30px;
+}
+
+header h2 {
+	font-size: 170%;
+	color:#800000;
+}
+
+header h3 { /*i figured out what i did wrong last time. i didn't specify this was exclusively meant for h3 elements in the header and it affected the ones in the main section too*/
+	font-size: 130%;
+	font-style: italic;
+}
+
+.shadow {
+	text-shadow: 3px 3px 6px #800000;
+}
+
+/* styles for the main section */
+main {
+	clear: left;
+	padding: 0 30px 0 30px; /*top, right, bottom, left...it goes clockwise, gotta remember*/
+}
+
+main h1 { /*somehow i had the h1 and h2 mixed up this whole time and no one said anything*/
+	font-size: 150%;
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+
+main h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom:.25em;
+}
+
+main h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+main img {
+	padding-bottom: 1em;
+}
+
+main p {
+	padding-bottom: .5em;
+}
+
+blockquote {
+	padding: 0 2em 0 2em;
+	font-style: italic;
+}
+
+main ul {
+	padding: 0 0 .25em 1.25em;
+}
+
+main ol { /*this is meant for the bonus sorkin page*/
+	padding: 0 0 .25em 1.25em;
+}
+
+main li {
+ padding-bottom: .35em;
+}
+
+main a:hover {
+	font-style: italic;
+}
+
+/* styles for the footer */
+footer {
+	background-color: #931420;
+	border: 3px solid #931420; /*apparently the footer also has a border according to the pdf. putting a hat on a hat here*/
+}
+
+footer p {
+	padding: 1em 0 1em 0;
+	text-align: center;
+	color: white;
+}
